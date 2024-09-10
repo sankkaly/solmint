@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'helvetica-regular';
+  src: url('../public/fonts/Helvetica.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'axiforma-bold';
+  src: url('../public/fonts/fonnts.com-Axiforma-Black.ttf') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'axiforma-italic';
+  src: url('../public/fonts/fonnts.com-Axiforma-Thin.ttf') format('woff');
+  font-weight: 200;
+  font-style: italic;
+}
+
+
+
+.bg{
+  background-image: url(../public/bg.svg);
+  background-size: cover;
+}
+
+.logo{
+  background: linear-gradient(45deg, #DF1CFF, #EA0070);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wallet-btn{
+  border: 2px solid; /* Border thickness */
+  border-image: linear-gradient(45deg, #E50AA7, #FF17BD) 1;
+  background-color: #0F111B; /* Optional: Button background */
+}
+
+.explore-btn{
+  background: linear-gradient(45deg, #DF1CFF, #EA0070);
+}
+
+.hero{
+  /* background-image: url(../public/hero.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 35%; */
+}
+
+.helvetica{
+  font-family: 'helvetica-regular';
+}
+
+.axiforma{
+  font-family: 'axiforma-bold' ;
+}
+
+.hero-italic{
+  font-family: axiforma-italic;
+}
